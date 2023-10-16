@@ -1,0 +1,30 @@
+body{
+    
+}
+
+
+
+
+.ph1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.grid{
+        display: grid;
+        grid-template-columns: 200px 325px 325px 330px 330px; /* Define column widths */
+       grid-template-rows: 400px;
+       
+      
+}
+
+.css{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.language >span{
+  padding-right: 15px;
+}
